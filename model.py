@@ -6,7 +6,7 @@ import os
 # Specify a local directory to store the model
 def initiate_model():
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    cache_dir = os.path.join("C:\\Users\\vummadisetty\\OneDrive - Conga\\Desktop\\ProvisionExtractionfromImage\\", ".cache", "clip_model")
+    cache_dir = os.path.join("{#}", ".cache", "clip_model")
     print(cache_dir)
 
     # Load CLIP Model, specifying the cache directory
