@@ -44,8 +44,8 @@ def test_extract(document_pages, index):
 
 if __name__ == '__main__':
     #documents
-    pdf_path = "BSA_BSACustomer_Conformed - Updated Signer Details (1) (1) (1).pdf"  # PDF path
-    query_image_path = "TestImages/test4.png"
+    pdf_path = "#"  # PDF path
+    query_image_path = "#" #user-uploading - image 
 
     #calling the pipeline
     document_pages,index = create_faiss_db(pdf_path)
